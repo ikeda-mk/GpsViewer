@@ -67,11 +67,6 @@
       "scale" : "2x",
       "role" : "quickLook",
       "subtype" : "44mm"
-    },
-    {
-      "idiom" : "watch-marketing",
-      "size" : "1024x1024",
-      "scale" : "1x"
     }
   ],
   "info" : {

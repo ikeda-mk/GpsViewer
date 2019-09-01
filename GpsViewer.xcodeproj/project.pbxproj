@@ -3,112 +3,115 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		243BCE2A231C178C00CDF093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243BCE29231C178C00CDF093 /* AppDelegate.swift */; };
-		243BCE2C231C178C00CDF093 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243BCE2B231C178C00CDF093 /* ViewController.swift */; };
-		243BCE2F231C178C00CDF093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243BCE2D231C178C00CDF093 /* Main.storyboard */; };
-		243BCE31231C178F00CDF093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243BCE30231C178F00CDF093 /* Assets.xcassets */; };
-		243BCE34231C178F00CDF093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243BCE32231C178F00CDF093 /* LaunchScreen.storyboard */; };
-		243BCE3F231C178F00CDF093 /* GpsViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243BCE3E231C178F00CDF093 /* GpsViewerTests.swift */; };
-		243BCE44231C178F00CDF093 /* GpsViewer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 243BCE43231C178F00CDF093 /* GpsViewer WatchKit App.app */; };
-		243BCE4A231C178F00CDF093 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243BCE48231C178F00CDF093 /* Interface.storyboard */; };
-		243BCE4C231C178F00CDF093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243BCE4B231C178F00CDF093 /* Assets.xcassets */; };
-		243BCE53231C178F00CDF093 /* GpsViewer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 243BCE52231C178F00CDF093 /* GpsViewer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		243BCE58231C178F00CDF093 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243BCE57231C178F00CDF093 /* InterfaceController.swift */; };
-		243BCE5A231C178F00CDF093 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243BCE59231C178F00CDF093 /* ExtensionDelegate.swift */; };
-		243BCE5C231C179000CDF093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243BCE5B231C179000CDF093 /* Assets.xcassets */; };
+		1A5570E5D773B982D55F37CD /* GpsViewer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1A557B8377BE93A1BEB6D0AE /* GpsViewer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ValidateOnCopy, ); }; };
+		1A557112C7E91F75AF02DBD2 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55798883886474605351C4 /* LocationManager.swift */; };
+		1A5571BA08F1980FA5B750E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A557C9FD28C642E1E0DD80C /* Main.storyboard */; };
+		1A5572F4BF41F0506B2C63C4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A557256BB7E5731122D3906 /* Interface.storyboard */; };
+		1A55730652961D5060EAF256 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A557121772733C8B5C205B3 /* ExtensionDelegate.swift */; };
+		1A5573F3A9C879DE6086F850 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A557874CB594ACECD942131 /* InterfaceController.swift */; };
+		1A55749954ECD874162AE4DE /* GpsViewer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1A5579AB1D305F2D9D290EF4 /* GpsViewer WatchKit App.app */; };
+		1A557813FAA1FD5269A8B08A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A557933C309617744184D89 /* Assets.xcassets */; };
+		1A55789D0A5BD7FC4986BE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A557B665FFF66160833D935 /* LaunchScreen.storyboard */; };
+		1A5578C53C726316E7D7B65B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A55712A1FDF45821AAE5F74 /* Assets.xcassets */; };
+		1A5579D789BD042D45C0B176 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A557C494364CBDE7A61F145 /* ViewController.swift */; };
+		1A557C14BE02F4E3985A2359 /* GpsViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A557CE82976F8E2396F9E29 /* GpsViewerTests.swift */; };
+		1A557CED3AA0796C8999F5B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A557FD9CA6B2F503C83D353 /* Assets.xcassets */; };
+		1A557D0A30FE1364808C7623 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55798883886474605351C4 /* LocationManager.swift */; };
+		1A557E73525D063F1525AEA5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55798883886474605351C4 /* LocationManager.swift */; };
+		1A557EE07FB27673EA49816C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A557FB9280BDFB044BF529F /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		243BCE3B231C178F00CDF093 /* PBXContainerItemProxy */ = {
+		1A5570244DC4701C8FFF64DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 243BCE1E231C178C00CDF093 /* Project object */;
+			containerPortal = 1A557B1792D2B11F4B0A5046 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 243BCE25231C178C00CDF093;
+			remoteGlobalIDString = 1A5570FC0DC0FE0337E2A843;
 			remoteInfo = GpsViewer;
 		};
-		243BCE45231C178F00CDF093 /* PBXContainerItemProxy */ = {
+		1A557511D9A9907984816716 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 243BCE1E231C178C00CDF093 /* Project object */;
+			containerPortal = 1A557B1792D2B11F4B0A5046 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 243BCE42231C178F00CDF093;
+			remoteGlobalIDString = 1A557FAEE780993C33503B57;
 			remoteInfo = "GpsViewer WatchKit App";
 		};
-		243BCE54231C178F00CDF093 /* PBXContainerItemProxy */ = {
+		1A557B3BC577E1593CC2A55D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 243BCE1E231C178C00CDF093 /* Project object */;
+			containerPortal = 1A557B1792D2B11F4B0A5046 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 243BCE51231C178F00CDF093;
+			remoteGlobalIDString = 1A557B8EF28868A046E8D6EF;
 			remoteInfo = "GpsViewer WatchKit Extension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		243BCE63231C179000CDF093 /* Embed App Extensions */ = {
+		1A5571F452AA9F33534FE1D6 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				243BCE53231C178F00CDF093 /* GpsViewer WatchKit Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		243BCE67231C179000CDF093 /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				243BCE44231C178F00CDF093 /* GpsViewer WatchKit App.app in Embed Watch Content */,
+				1A55749954ECD874162AE4DE /* GpsViewer WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A5576457EF76C59B611519E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 0;
+			dstSubfolderSpec = 13;
+			files = (
+				1A5570E5D773B982D55F37CD /* GpsViewer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		243BCE26231C178C00CDF093 /* GpsViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GpsViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		243BCE29231C178C00CDF093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		243BCE2B231C178C00CDF093 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		243BCE2E231C178C00CDF093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		243BCE30231C178F00CDF093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		243BCE33231C178F00CDF093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		243BCE35231C178F00CDF093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		243BCE3A231C178F00CDF093 /* GpsViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GpsViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		243BCE3E231C178F00CDF093 /* GpsViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpsViewerTests.swift; sourceTree = "<group>"; };
-		243BCE40231C178F00CDF093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		243BCE43231C178F00CDF093 /* GpsViewer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GpsViewer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		243BCE49231C178F00CDF093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		243BCE4B231C178F00CDF093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		243BCE4D231C178F00CDF093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		243BCE52231C178F00CDF093 /* GpsViewer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GpsViewer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		243BCE57231C178F00CDF093 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		243BCE59231C178F00CDF093 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		243BCE5B231C179000CDF093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		243BCE5D231C179000CDF093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A55709A9846A491E861C9C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A557121772733C8B5C205B3 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1A55712A1FDF45821AAE5F74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A55718169D4F1C16EEFE9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		1A5571EBBF62DE9DE343E1DF /* GpsViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GpsViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5573A6CC6EB5F6B03A09DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A5573CB47CF9D177D430B18 /* GpsViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GpsViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5575E63272153D30051097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		1A5577A9C36B31E05FAD5D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1A557874CB594ACECD942131 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1A557933C309617744184D89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A55798883886474605351C4 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		1A5579AB1D305F2D9D290EF4 /* GpsViewer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GpsViewer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A557B8377BE93A1BEB6D0AE /* GpsViewer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GpsViewer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A557C494364CBDE7A61F145 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A557C608A0C0F7EB3506C46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		1A557CE82976F8E2396F9E29 /* GpsViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpsViewerTests.swift; sourceTree = "<group>"; };
+		1A557EA5F9D8242DD02BA0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		1A557FB9280BDFB044BF529F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A557FD9CA6B2F503C83D353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		243BCE23231C178C00CDF093 /* Frameworks */ = {
+		1A557515D750CE2BB625B746 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		243BCE37231C178F00CDF093 /* Frameworks */ = {
+		1A557A5D809D9C1063B9D595 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		243BCE4F231C178F00CDF093 /* Frameworks */ = {
+		1A557EF38EDEC83AB09A21F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -118,135 +121,119 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		243BCE1D231C178C00CDF093 = {
+		1A5571B75936E90261972CC1 /* GpsViewer */ = {
 			isa = PBXGroup;
 			children = (
-				243BCE28231C178C00CDF093 /* GpsViewer */,
-				243BCE3D231C178F00CDF093 /* GpsViewerTests */,
-				243BCE47231C178F00CDF093 /* GpsViewer WatchKit App */,
-				243BCE56231C178F00CDF093 /* GpsViewer WatchKit Extension */,
-				243BCE27231C178C00CDF093 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		243BCE27231C178C00CDF093 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				243BCE26231C178C00CDF093 /* GpsViewer.app */,
-				243BCE3A231C178F00CDF093 /* GpsViewerTests.xctest */,
-				243BCE43231C178F00CDF093 /* GpsViewer WatchKit App.app */,
-				243BCE52231C178F00CDF093 /* GpsViewer WatchKit Extension.appex */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		243BCE28231C178C00CDF093 /* GpsViewer */ = {
-			isa = PBXGroup;
-			children = (
-				243BCE29231C178C00CDF093 /* AppDelegate.swift */,
-				243BCE2B231C178C00CDF093 /* ViewController.swift */,
-				243BCE2D231C178C00CDF093 /* Main.storyboard */,
-				243BCE30231C178F00CDF093 /* Assets.xcassets */,
-				243BCE32231C178F00CDF093 /* LaunchScreen.storyboard */,
-				243BCE35231C178F00CDF093 /* Info.plist */,
+				1A55718169D4F1C16EEFE9D2 /* Info.plist */,
+				1A557FD9CA6B2F503C83D353 /* Assets.xcassets */,
+				1A557B665FFF66160833D935 /* LaunchScreen.storyboard */,
+				1A557FB9280BDFB044BF529F /* AppDelegate.swift */,
+				1A557C9FD28C642E1E0DD80C /* Main.storyboard */,
+				1A557C494364CBDE7A61F145 /* ViewController.swift */,
+				1A55798883886474605351C4 /* LocationManager.swift */,
 			);
 			path = GpsViewer;
 			sourceTree = "<group>";
 		};
-		243BCE3D231C178F00CDF093 /* GpsViewerTests */ = {
+		1A55765AF5DC80E77DF66F11 /* GpsViewerTests */ = {
 			isa = PBXGroup;
 			children = (
-				243BCE3E231C178F00CDF093 /* GpsViewerTests.swift */,
-				243BCE40231C178F00CDF093 /* Info.plist */,
+				1A557EA5F9D8242DD02BA0EB /* Info.plist */,
+				1A557CE82976F8E2396F9E29 /* GpsViewerTests.swift */,
 			);
 			path = GpsViewerTests;
 			sourceTree = "<group>";
 		};
-		243BCE47231C178F00CDF093 /* GpsViewer WatchKit App */ = {
+		1A557A5993BBE027F390B753 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				243BCE48231C178F00CDF093 /* Interface.storyboard */,
-				243BCE4B231C178F00CDF093 /* Assets.xcassets */,
-				243BCE4D231C178F00CDF093 /* Info.plist */,
+				1A5571EBBF62DE9DE343E1DF /* GpsViewer.app */,
+				1A5573CB47CF9D177D430B18 /* GpsViewerTests.xctest */,
+				1A5579AB1D305F2D9D290EF4 /* GpsViewer WatchKit App.app */,
+				1A557B8377BE93A1BEB6D0AE /* GpsViewer WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A557CE93201D01D9292E358 /* GpsViewer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1A557C608A0C0F7EB3506C46 /* Info.plist */,
+				1A557933C309617744184D89 /* Assets.xcassets */,
+				1A557256BB7E5731122D3906 /* Interface.storyboard */,
 			);
 			path = "GpsViewer WatchKit App";
 			sourceTree = "<group>";
 		};
-		243BCE56231C178F00CDF093 /* GpsViewer WatchKit Extension */ = {
+		1A557F1E7687B34226133FB4 /* GpsViewer WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				243BCE57231C178F00CDF093 /* InterfaceController.swift */,
-				243BCE59231C178F00CDF093 /* ExtensionDelegate.swift */,
-				243BCE5B231C179000CDF093 /* Assets.xcassets */,
-				243BCE5D231C179000CDF093 /* Info.plist */,
+				1A5575E63272153D30051097 /* Info.plist */,
+				1A55712A1FDF45821AAE5F74 /* Assets.xcassets */,
+				1A557874CB594ACECD942131 /* InterfaceController.swift */,
+				1A557121772733C8B5C205B3 /* ExtensionDelegate.swift */,
 			);
 			path = "GpsViewer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1A557FBF03A3FFB759426148 = {
+			isa = PBXGroup;
+			children = (
+				1A557A5993BBE027F390B753 /* Products */,
+				1A5571B75936E90261972CC1 /* GpsViewer */,
+				1A55765AF5DC80E77DF66F11 /* GpsViewerTests */,
+				1A557CE93201D01D9292E358 /* GpsViewer WatchKit App */,
+				1A557F1E7687B34226133FB4 /* GpsViewer WatchKit Extension */,
+			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		243BCE25231C178C00CDF093 /* GpsViewer */ = {
+		1A5570D8138D59FF4AD69941 /* GpsViewerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 243BCE68231C179000CDF093 /* Build configuration list for PBXNativeTarget "GpsViewer" */;
+			buildConfigurationList = 1A557DC624C24CB4BB364D86 /* Build configuration list for PBXNativeTarget "GpsViewerTests" */;
 			buildPhases = (
-				243BCE22231C178C00CDF093 /* Sources */,
-				243BCE23231C178C00CDF093 /* Frameworks */,
-				243BCE24231C178C00CDF093 /* Resources */,
-				243BCE67231C179000CDF093 /* Embed Watch Content */,
+				1A557ABCC3D9C54C4D95759B /* Sources */,
+				1A557A5D809D9C1063B9D595 /* Frameworks */,
+				1A557DA640A6AA619592A8D9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				243BCE46231C178F00CDF093 /* PBXTargetDependency */,
-			);
-			name = GpsViewer;
-			productName = GpsViewer;
-			productReference = 243BCE26231C178C00CDF093 /* GpsViewer.app */;
-			productType = "com.apple.product-type.application";
-		};
-		243BCE39231C178F00CDF093 /* GpsViewerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 243BCE6B231C179000CDF093 /* Build configuration list for PBXNativeTarget "GpsViewerTests" */;
-			buildPhases = (
-				243BCE36231C178F00CDF093 /* Sources */,
-				243BCE37231C178F00CDF093 /* Frameworks */,
-				243BCE38231C178F00CDF093 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				243BCE3C231C178F00CDF093 /* PBXTargetDependency */,
+				1A55758D1126BABE9301AA76 /* PBXTargetDependency */,
 			);
 			name = GpsViewerTests;
 			productName = GpsViewerTests;
-			productReference = 243BCE3A231C178F00CDF093 /* GpsViewerTests.xctest */;
+			productReference = 1A5573CB47CF9D177D430B18 /* GpsViewerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		243BCE42231C178F00CDF093 /* GpsViewer WatchKit App */ = {
+		1A5570FC0DC0FE0337E2A843 /* GpsViewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 243BCE64231C179000CDF093 /* Build configuration list for PBXNativeTarget "GpsViewer WatchKit App" */;
+			buildConfigurationList = 1A5573DD94FBDB68A4CB88C7 /* Build configuration list for PBXNativeTarget "GpsViewer" */;
 			buildPhases = (
-				243BCE41231C178F00CDF093 /* Resources */,
-				243BCE63231C179000CDF093 /* Embed App Extensions */,
+				1A557FA6F15CACCF36C2D175 /* Sources */,
+				1A557EF38EDEC83AB09A21F3 /* Frameworks */,
+				1A557B91C93F9E4B1DFA3497 /* Resources */,
+				1A5571F452AA9F33534FE1D6 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				243BCE55231C178F00CDF093 /* PBXTargetDependency */,
+				1A557F8B3BBC18E36643CBC1 /* PBXTargetDependency */,
 			);
-			name = "GpsViewer WatchKit App";
-			productName = "GpsViewer WatchKit App";
-			productReference = 243BCE43231C178F00CDF093 /* GpsViewer WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp2";
+			name = GpsViewer;
+			productName = GpsViewer;
+			productReference = 1A5571EBBF62DE9DE343E1DF /* GpsViewer.app */;
+			productType = "com.apple.product-type.application";
 		};
-		243BCE51231C178F00CDF093 /* GpsViewer WatchKit Extension */ = {
+		1A557B8EF28868A046E8D6EF /* GpsViewer WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 243BCE60231C179000CDF093 /* Build configuration list for PBXNativeTarget "GpsViewer WatchKit Extension" */;
+			buildConfigurationList = 1A557C69F11C3A6237AF4D3C /* Build configuration list for PBXNativeTarget "GpsViewer WatchKit Extension" */;
 			buildPhases = (
-				243BCE4E231C178F00CDF093 /* Sources */,
-				243BCE4F231C178F00CDF093 /* Frameworks */,
-				243BCE50231C178F00CDF093 /* Resources */,
+				1A5575B8CFB7446F5E9D6E09 /* Sources */,
+				1A557515D750CE2BB625B746 /* Frameworks */,
+				1A557E6A0248FA3A71A3870F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -254,168 +241,363 @@
 			);
 			name = "GpsViewer WatchKit Extension";
 			productName = "GpsViewer WatchKit Extension";
-			productReference = 243BCE52231C178F00CDF093 /* GpsViewer WatchKit Extension.appex */;
+			productReference = 1A557B8377BE93A1BEB6D0AE /* GpsViewer WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		1A557FAEE780993C33503B57 /* GpsViewer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A5579C4BC4A573CCC810B61 /* Build configuration list for PBXNativeTarget "GpsViewer WatchKit App" */;
+			buildPhases = (
+				1A557ED992BDD7AB26F5BC07 /* Resources */,
+				1A5576457EF76C59B611519E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A557AC404FD7D16F962F4C6 /* PBXTargetDependency */,
+			);
+			name = "GpsViewer WatchKit App";
+			productName = "GpsViewer WatchKit App";
+			productReference = 1A5579AB1D305F2D9D290EF4 /* GpsViewer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		243BCE1E231C178C00CDF093 /* Project object */ = {
+		1A557B1792D2B11F4B0A5046 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1030;
-				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = example.dev;
 				TargetAttributes = {
-					243BCE25231C178C00CDF093 = {
-						CreatedOnToolsVersion = 10.3;
+					1A5570FC0DC0FE0337E2A843 = {
+						DevelopmentTeam = F583DZMDG2;
 					};
-					243BCE39231C178F00CDF093 = {
-						CreatedOnToolsVersion = 10.3;
-						TestTargetID = 243BCE25231C178C00CDF093;
+					1A557B8EF28868A046E8D6EF = {
+						DevelopmentTeam = F583DZMDG2;
 					};
-					243BCE42231C178F00CDF093 = {
-						CreatedOnToolsVersion = 10.3;
-					};
-					243BCE51231C178F00CDF093 = {
-						CreatedOnToolsVersion = 10.3;
+					1A557FAEE780993C33503B57 = {
+						DevelopmentTeam = F583DZMDG2;
 					};
 				};
 			};
-			buildConfigurationList = 243BCE21231C178C00CDF093 /* Build configuration list for PBXProject "GpsViewer" */;
-			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
+			buildConfigurationList = 1A557047523EDD24894CD57E /* Build configuration list for PBXProject "GpsViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
-			mainGroup = 243BCE1D231C178C00CDF093;
-			productRefGroup = 243BCE27231C178C00CDF093 /* Products */;
+			mainGroup = 1A557FBF03A3FFB759426148;
+			productRefGroup = 1A557A5993BBE027F390B753 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				243BCE25231C178C00CDF093 /* GpsViewer */,
-				243BCE39231C178F00CDF093 /* GpsViewerTests */,
-				243BCE42231C178F00CDF093 /* GpsViewer WatchKit App */,
-				243BCE51231C178F00CDF093 /* GpsViewer WatchKit Extension */,
+				1A5570FC0DC0FE0337E2A843 /* GpsViewer */,
+				1A5570D8138D59FF4AD69941 /* GpsViewerTests */,
+				1A557FAEE780993C33503B57 /* GpsViewer WatchKit App */,
+				1A557B8EF28868A046E8D6EF /* GpsViewer WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		243BCE24231C178C00CDF093 /* Resources */ = {
+		1A557B91C93F9E4B1DFA3497 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243BCE34231C178F00CDF093 /* LaunchScreen.storyboard in Resources */,
-				243BCE31231C178F00CDF093 /* Assets.xcassets in Resources */,
-				243BCE2F231C178C00CDF093 /* Main.storyboard in Resources */,
+				1A557CED3AA0796C8999F5B2 /* Assets.xcassets in Resources */,
+				1A55789D0A5BD7FC4986BE1B /* LaunchScreen.storyboard in Resources */,
+				1A5571BA08F1980FA5B750E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		243BCE38231C178F00CDF093 /* Resources */ = {
+		1A557DA640A6AA619592A8D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		243BCE41231C178F00CDF093 /* Resources */ = {
+		1A557E6A0248FA3A71A3870F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243BCE4C231C178F00CDF093 /* Assets.xcassets in Resources */,
-				243BCE4A231C178F00CDF093 /* Interface.storyboard in Resources */,
+				1A5578C53C726316E7D7B65B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		243BCE50231C178F00CDF093 /* Resources */ = {
+		1A557ED992BDD7AB26F5BC07 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243BCE5C231C179000CDF093 /* Assets.xcassets in Resources */,
+				1A557813FAA1FD5269A8B08A /* Assets.xcassets in Resources */,
+				1A5572F4BF41F0506B2C63C4 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		243BCE22231C178C00CDF093 /* Sources */ = {
+		1A5575B8CFB7446F5E9D6E09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243BCE2C231C178C00CDF093 /* ViewController.swift in Sources */,
-				243BCE2A231C178C00CDF093 /* AppDelegate.swift in Sources */,
+				1A5573F3A9C879DE6086F850 /* InterfaceController.swift in Sources */,
+				1A55730652961D5060EAF256 /* ExtensionDelegate.swift in Sources */,
+				1A557112C7E91F75AF02DBD2 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		243BCE36231C178F00CDF093 /* Sources */ = {
+		1A557ABCC3D9C54C4D95759B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243BCE3F231C178F00CDF093 /* GpsViewerTests.swift in Sources */,
+				1A557C14BE02F4E3985A2359 /* GpsViewerTests.swift in Sources */,
+				1A557D0A30FE1364808C7623 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		243BCE4E231C178F00CDF093 /* Sources */ = {
+		1A557FA6F15CACCF36C2D175 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243BCE5A231C178F00CDF093 /* ExtensionDelegate.swift in Sources */,
-				243BCE58231C178F00CDF093 /* InterfaceController.swift in Sources */,
+				1A557EE07FB27673EA49816C /* AppDelegate.swift in Sources */,
+				1A5579D789BD042D45C0B176 /* ViewController.swift in Sources */,
+				1A557E73525D063F1525AEA5 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		243BCE3C231C178F00CDF093 /* PBXTargetDependency */ = {
+		1A55758D1126BABE9301AA76 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 243BCE25231C178C00CDF093 /* GpsViewer */;
-			targetProxy = 243BCE3B231C178F00CDF093 /* PBXContainerItemProxy */;
+			target = 1A5570FC0DC0FE0337E2A843 /* GpsViewer */;
+			targetProxy = 1A5570244DC4701C8FFF64DC /* PBXContainerItemProxy */;
 		};
-		243BCE46231C178F00CDF093 /* PBXTargetDependency */ = {
+		1A557AC404FD7D16F962F4C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 243BCE42231C178F00CDF093 /* GpsViewer WatchKit App */;
-			targetProxy = 243BCE45231C178F00CDF093 /* PBXContainerItemProxy */;
+			target = 1A557B8EF28868A046E8D6EF /* GpsViewer WatchKit Extension */;
+			targetProxy = 1A557B3BC577E1593CC2A55D /* PBXContainerItemProxy */;
 		};
-		243BCE55231C178F00CDF093 /* PBXTargetDependency */ = {
+		1A557F8B3BBC18E36643CBC1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 243BCE51231C178F00CDF093 /* GpsViewer WatchKit Extension */;
-			targetProxy = 243BCE54231C178F00CDF093 /* PBXContainerItemProxy */;
+			target = 1A557FAEE780993C33503B57 /* GpsViewer WatchKit App */;
+			targetProxy = 1A557511D9A9907984816716 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		243BCE2D231C178C00CDF093 /* Main.storyboard */ = {
+		1A557256BB7E5731122D3906 /* Interface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				243BCE2E231C178C00CDF093 /* Base */,
+				1A5577A9C36B31E05FAD5D2D /* Base */,
 			);
-			name = Main.storyboard;
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
-		243BCE32231C178F00CDF093 /* LaunchScreen.storyboard */ = {
+		1A557B665FFF66160833D935 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				243BCE33231C178F00CDF093 /* Base */,
+				1A55709A9846A491E861C9C6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		243BCE48231C178F00CDF093 /* Interface.storyboard */ = {
+		1A557C9FD28C642E1E0DD80C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				243BCE49231C178F00CDF093 /* Base */,
+				1A5573A6CC6EB5F6B03A09DC /* Base */,
 			);
-			name = Interface.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		243BCE5E231C179000CDF093 /* Debug */ = {
+		1A55706B941A538A1926646D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F583DZMDG2;
+				IBSC_MODULE = GpsViewer_WatchKit_Extension;
+				INFOPLIST_FILE = "GpsViewer WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.example.GpsViewer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Release;
+		};
+		1A5570E51E2376851C73D21C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F583DZMDG2;
+				INFOPLIST_FILE = GpsViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.example.GpsViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A5571D6EFDF24D92067460A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GpsViewer.app/GpsViewer";
+				INFOPLIST_FILE = GpsViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.example.GpsViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		1A557354183BB8ABC88B86E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A5574604403D846D248A0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = F583DZMDG2;
+				INFOPLIST_FILE = "GpsViewer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.example.GpsViewer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Debug;
+		};
+		1A5575F04AED29CCC3A41B1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F583DZMDG2;
+				IBSC_MODULE = GpsViewer_WatchKit_Extension;
+				INFOPLIST_FILE = "GpsViewer WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.example.GpsViewer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Debug;
+		};
+		1A557A915E13241439816E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F583DZMDG2;
+				INFOPLIST_FILE = GpsViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.example.GpsViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A557B62DBF60EBE91F90ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = F583DZMDG2;
+				INFOPLIST_FILE = "GpsViewer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.example.GpsViewer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Release;
+		};
+		1A557BD5D4FA0E80886A5884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GpsViewer.app/GpsViewer";
+				INFOPLIST_FILE = GpsViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.example.GpsViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		1A557EFD18EA2BCDA6405DC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -476,270 +658,55 @@
 			};
 			name = Debug;
 		};
-		243BCE5F231C179000CDF093 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		243BCE61231C179000CDF093 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "GpsViewer WatchKit Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.example.GpsViewer.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.3;
-			};
-			name = Debug;
-		};
-		243BCE62231C179000CDF093 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "GpsViewer WatchKit Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.example.GpsViewer.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.3;
-			};
-			name = Release;
-		};
-		243BCE65231C179000CDF093 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				IBSC_MODULE = GpsViewer_WatchKit_Extension;
-				INFOPLIST_FILE = "GpsViewer WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = dev.example.GpsViewer.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.3;
-			};
-			name = Debug;
-		};
-		243BCE66231C179000CDF093 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				IBSC_MODULE = GpsViewer_WatchKit_Extension;
-				INFOPLIST_FILE = "GpsViewer WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = dev.example.GpsViewer.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.3;
-			};
-			name = Release;
-		};
-		243BCE69231C179000CDF093 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = GpsViewer/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.example.GpsViewer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		243BCE6A231C179000CDF093 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = GpsViewer/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.example.GpsViewer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		243BCE6C231C179000CDF093 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SV5WFJWJ8T;
-				INFOPLIST_FILE = GpsViewerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.example.GpsViewerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GpsViewer.app/GpsViewer";
-			};
-			name = Debug;
-		};
-		243BCE6D231C179000CDF093 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SV5WFJWJ8T;
-				INFOPLIST_FILE = GpsViewerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.example.GpsViewerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GpsViewer.app/GpsViewer";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		243BCE21231C178C00CDF093 /* Build configuration list for PBXProject "GpsViewer" */ = {
+		1A557047523EDD24894CD57E /* Build configuration list for PBXProject "GpsViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				243BCE5E231C179000CDF093 /* Debug */,
-				243BCE5F231C179000CDF093 /* Release */,
+				1A557EFD18EA2BCDA6405DC1 /* Debug */,
+				1A557354183BB8ABC88B86E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		243BCE60231C179000CDF093 /* Build configuration list for PBXNativeTarget "GpsViewer WatchKit Extension" */ = {
+		1A5573DD94FBDB68A4CB88C7 /* Build configuration list for PBXNativeTarget "GpsViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				243BCE61231C179000CDF093 /* Debug */,
-				243BCE62231C179000CDF093 /* Release */,
+				1A557A915E13241439816E7C /* Debug */,
+				1A5570E51E2376851C73D21C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		243BCE64231C179000CDF093 /* Build configuration list for PBXNativeTarget "GpsViewer WatchKit App" */ = {
+		1A5579C4BC4A573CCC810B61 /* Build configuration list for PBXNativeTarget "GpsViewer WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				243BCE65231C179000CDF093 /* Debug */,
-				243BCE66231C179000CDF093 /* Release */,
+				1A5575F04AED29CCC3A41B1A /* Debug */,
+				1A55706B941A538A1926646D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		243BCE68231C179000CDF093 /* Build configuration list for PBXNativeTarget "GpsViewer" */ = {
+		1A557C69F11C3A6237AF4D3C /* Build configuration list for PBXNativeTarget "GpsViewer WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				243BCE69231C179000CDF093 /* Debug */,
-				243BCE6A231C179000CDF093 /* Release */,
+				1A5574604403D846D248A0D8 /* Debug */,
+				1A557B62DBF60EBE91F90ACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		243BCE6B231C179000CDF093 /* Build configuration list for PBXNativeTarget "GpsViewerTests" */ = {
+		1A557DC624C24CB4BB364D86 /* Build configuration list for PBXNativeTarget "GpsViewerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				243BCE6C231C179000CDF093 /* Debug */,
-				243BCE6D231C179000CDF093 /* Release */,
+				1A5571D6EFDF24D92067460A /* Debug */,
+				1A557BD5D4FA0E80886A5884 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 243BCE1E231C178C00CDF093 /* Project object */;
+	rootObject = 1A557B1792D2B11F4B0A5046 /* Project object */;
 }
